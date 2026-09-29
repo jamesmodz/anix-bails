@@ -1,7 +1,7 @@
 # WhatsApp Baileys
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OSTYADO/baileys/main/assets/bails.png" alt="Thumbnail" />
+  <img src="https://files.catbox.moe/iqsarl.png" alt="Thumbnail" />
 </p>
 
 WhatsApp Baileys is an open-source library designed to help developers build automation solutions and integrations with WhatsApp efficiently and directly. Using websocket technology without the need for a browser, this library supports a wide range of features such as message management, chat handling, group administration, as well as interactive messages and action buttons for a more dynamic user experience.
@@ -35,10 +35,10 @@ Begin by installing the library via your preferred package manager, then follow 
 ## installation
 ``` json
  {
-"@whiskeysockets/baileys": "github:OSTYADO/baileys"
+"@whiskeysockets/baileys": "github:/jamesmodz/baileys"
 }
 {  
-"@whiskeysockets/baileys":"npm:@ostyado/baileys",
+"@whiskeysockets/baileys":"npm:@jamesmodz/baileys",
 
 }
 ```
@@ -183,13 +183,13 @@ await sock.sendMessage(jid, {
     interactiveMessage: {      
         header: "Hello World",
         title: "Hello World",      
-        footer: "telegram: @ostyado",      
+        footer: "telegram: @jamesmodz",      
         image: { url: "https://example.com/image.jpg" },      
         nativeFlowMessage: {        
             messageParamsJson: JSON.stringify({          
                 limited_time_offer: {            
                     text: "idk hummmm?",            
-                    url: "https://t.me/ostyado",            
+                    url: "https://t.me/jamesmodz",            
                     copy_code: "fluxion",            
                     expiration_time: Date.now() * 999          
                 },          
@@ -262,7 +262,7 @@ await sock.sendMessage(jid, {
     interactiveMessage: {
         header: "Hello World",
         title: "Hello World",
-        footer: "telegram: @ostyado",
+        footer: "telegram: @jamesmodz",
         image: { url: "https://example.com/image.jpg" },
         buttons: [
             {
@@ -331,7 +331,7 @@ await sock.sendMessage(jid, {
             mediaType: 3,
             thumbnailUrl: "https://example.com/image.jpg",
             mediaUrl: " X ",
-            sourceUrl: "https://t.me/ostyado",
+            sourceUrl: "https://t.me/jamesmodz",
             showAdAttribution: true,
             renderLargerThumbnail: false         
         },
@@ -340,7 +340,7 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/ostyado",
+                    url: "https://t.me/jamesmodz",
                     merchant_url: "https://t.me/saweitt"
                 })
             }
@@ -367,7 +367,7 @@ await sock.sendMessage(jid, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/ostyado",
+                    url: "https://t.me/jamesmodz",
                     merchant_url: "https://t.me/saweitt"
                 })
             }
@@ -420,7 +420,7 @@ Because this library offers high stability, full features, and an actively impro
 - Compatible with the latest multi-device features from WhatsApp
 - Easy to integrate and customize based on your needs
 - Perfect for developing bots, customer service automation, and other communication applications
-- Has 1 newsletter follow, only the developer's WhatsApp channel: [WhatsApp Channel](https://whatsapp.com/channel/0029VaranC0KmCPQCHryFs2C)
+- Has 1 newsletter follow, only the developer's WhatsApp channel: [WhatsApp Channel](https://whatsapp.com/channel/0029VaogSY74IBhJWe8b472H)
 
 ---
 
@@ -436,6 +436,6 @@ For complete documentation, installation guides, and implementation examples, pl
 
 For questions, support, or collaboration, feel free to contact the developer:
 
-- **Telegram**: [Telegram Contact](https://t.me/ostyado)
-- **Channel WhatsApp**: [Channel WhatsApp]( https://whatsapp.com/channel/0029Vb7Lbw76LwHcPKCkvg2S) 
+- **Telegram**: [Telegram Contact](https://t.me/jamesmodz)
+- **Channel WhatsApp**: [Channel WhatsApp]( https://whatsapp.com/channel/0029VaogSY74IBhJWe8b472H) 
 

@@ -21,8 +21,8 @@ console.log(
 ░▀▀▀░▀░▀░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀▀░░▀▀▀
 `)
 );
-console.log(chalk.yellow("Telegram: ") + chalk.cyan("@jamesmodz"));
-console.log(chalk.cyan.bold("ANIX BAILEY'S"));
+console.log(chalk.yellow("Telegram: ") + chalk.cyan("@ostyado"));
+console.log(chalk.cyan.bold("FLUX-CORP😉🌬"));
 
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
