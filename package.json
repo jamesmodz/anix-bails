@@ -3,19 +3,19 @@
     "version": "1.0.2",
     "description": "ron-tech whatsapp baileys modification",
     "keywords": [
-        "Ostyado",
-        "rontech",
+        "James",
+        "anix",
         "whatsapp",
         "baileys",
-        "Fluxion",
-        "fluxcorp"
+        "vampire",
+        "killer"
     ],
-    "homepage": "https://github.com/OSTYADO/baileys",
+    "homepage": "https://github.com/jamesmodz",
     "profile": {
-        "baseurl": "https://github.com/OSTYADO/baileys"
+        "baseurl": "https://github.com/jamesmodz/animebails"
     },
     "license": "MIT",
-    "author": "James (Anix Md), forked from OSTYADO's baileys build",
+    "author": "James (Anix Md), baileys build",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
